@@ -1,0 +1,16 @@
+#loader {
+  animation: loader 1000ms  cubic-bezier(.42,0,.58,1);
+  background-image: url('images/flat-fox.svg');
+  height: 50px;
+  opacity: .9;
+  position: relative;
+  top: -35px;
+  width: 50px;
+}
+
+#loader-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}

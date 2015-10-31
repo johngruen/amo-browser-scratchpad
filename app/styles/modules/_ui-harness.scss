@@ -1,0 +1,56 @@
+#ui-harness {
+
+  &.bounded {
+    animation: fade-in 400ms;
+    background-size: 1100px 79px;
+    overflow: scroll;
+    position: relative;
+    width:1100px;
+  }
+
+  &.full-screen {
+    animation: fade-in 400ms;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+  }
+}
+
+#app-options {
+  bottom: 0;
+  left: 0;
+  padding: 0 0 5px;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+
+  a {
+    color: $cool-grey;
+    opacity: .8;
+    text-decoration: none;
+    padding: 3px 10px;
+    display: inline-block;
+
+    &:last-child {
+      float: right;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+#inner {
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(0,0,0,.5),
+  0 4px 20px rgba(0,0,0,.2);
+  overflow: hidden;
+}

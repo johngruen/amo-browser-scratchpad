@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+  font-size: 75%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $cool-grey;
+  background: linear-gradient(14deg, #7AE1F1 3%, #C8F5CE 100%);
+  min-height: 100vh;
+}
+
+a {
+  color: $mobile-blue;
+  text-decoration: none;
+}
